@@ -9,7 +9,7 @@ import org.elasticsearch.script.ExecutableScript;
 import org.elasticsearch.script.NativeScriptFactory;
 
 /**
- * A scorer that returns just the Lucene score directly. 
+ * A scorer that returns just the Lucene score directly.
  */
 public final class LuceneScoreFactory implements NativeScriptFactory {
 

@@ -8,7 +8,7 @@ import org.elasticsearch.script.ExecutableScript;
 import org.elasticsearch.script.NativeScriptFactory;
 
 /**
- * A scorer that returns just a constant score of <code>1</code>. 
+ * A scorer that returns just a constant score of <code>1</code>.
  */
 public final class ConstantScoreFactory implements NativeScriptFactory {
 
