@@ -19,7 +19,7 @@ public final class LuceneDownscaledScoreFactory implements NativeScriptFactory {
 
             @Override
             public double runAsDouble() {
-                return score() * 0.0001d;
+                return score() * 0.0000001d;
             }
         };
     }
