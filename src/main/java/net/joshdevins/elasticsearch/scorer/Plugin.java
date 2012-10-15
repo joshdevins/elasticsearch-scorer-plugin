@@ -19,5 +19,6 @@ public final class Plugin extends AbstractPlugin {
         module.registerScript("constant-score", ConstantScoreFactory.class);
         module.registerScript("lucene-score", LuceneScoreFactory.class);
         module.registerScript("lucene-downscaled-score", LuceneDownscaledScoreFactory.class);
+        module.registerScript("extra-lucene-score", ExtraLuceneScoreFactory.class);
     }
 }
