@@ -18,5 +18,6 @@ public final class Plugin extends AbstractPlugin {
     public void onModule(final ScriptModule module) {
         module.registerScript("constant-score", ConstantScoreFactory.class);
         module.registerScript("lucene-score", LuceneScoreFactory.class);
+        module.registerScript("lucene-downscaled-score", LuceneDownscaledScoreFactory.class);
     }
 }
